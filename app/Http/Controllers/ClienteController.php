@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class ClienteController extends Controller
 {
-    //
+    public function perfil(Request $request)
+    {
+        
+    }
 }

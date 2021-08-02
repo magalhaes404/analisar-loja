@@ -68,7 +68,7 @@ class ProdutoController extends Controller {
     }
 
     public function all(Request $request) {
-        $limit = 1;
+        $limit = 10;
         if ($request->has('limit')) {
             $limit = $request->limit;
         }
